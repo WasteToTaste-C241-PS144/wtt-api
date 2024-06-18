@@ -42,7 +42,10 @@ def predict():
 
 @main.route("/recipes", methods=['GET'])
 def get_recipes():
+    search=request.args.get('search')
     recipes = retrieve_recipes()
+    if search : 
+        recipes=[item for item in recipes if search.lower() in item["title"].lower()]
     return jsonify({
         "status": "success",
         "data": recipes
