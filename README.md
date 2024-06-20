@@ -30,12 +30,12 @@ Activate the virtual environment (Windows):
 Activate the virtual environment (macOS/Linux):
 
 
-```bashsource venv/bin/activate`
+```source venv/bin/activate```
 Install dependencies:
 
 Ensure you are using Python 3.8 in your virtual environment. Install TensorFlow and Flask:
 
-```bashpip install tensorflow flask marshmallow
+```pip install tensorflow flask marshmallow```
 Note: Installing TensorFlow may take some time due to its size and dependencies.
 
 ## Usage
@@ -43,7 +43,7 @@ Run the application:
 
 Ensure the virtual environment venv is activated.
 
-```bashpython run.py
+```python run.py```
 This command starts the Flask application.
 
 Access the application:
