@@ -30,7 +30,7 @@ Activate the virtual environment (Windows):
 Activate the virtual environment (macOS/Linux):
 
 
-```bashsource venv/bin/activate
+```bashsource venv/bin/activate`
 Install dependencies:
 
 Ensure you are using Python 3.8 in your virtual environment. Install TensorFlow and Flask:
